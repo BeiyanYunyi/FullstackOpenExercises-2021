@@ -1,0 +1,11 @@
+GET http://localhost:3001/api/persons/
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "VSCode REST",
+    "number": "1236d5fkyou"
+}
+###
+DELETE http://localhost:3001/api/persons/c9671c43-1079-43db-aedc-f1e930eb9540
